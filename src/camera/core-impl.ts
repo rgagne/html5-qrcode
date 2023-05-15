@@ -166,6 +166,7 @@ class RenderedCameraImpl implements RenderedCamera {
         videoElement.setAttribute("muted", "true");
         (<any>videoElement).playsInline = true;
         (<any>videoElement).autoplay = true;
+        videoElement.setAttribute("autoplay", "true");
         return videoElement;
     }
 
